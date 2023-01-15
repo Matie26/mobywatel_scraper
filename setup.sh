@@ -17,9 +17,6 @@ wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -
 unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
  
 pip3 install --upgrade pip
- 
-pip3 install selenium
- 
-pip3 install pandas
- 
-pip3 install matplotlib
+
+pip3 install -r requirements.txt
+
